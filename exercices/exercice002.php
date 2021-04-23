@@ -41,23 +41,6 @@
         } else {
             echo "<p>La valeur absolue de $nbrandom1 - $nbrandom1et2 n'est pas comprise entre 25 et 75</p>";
         }
-
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         echo "<p>*************************************************</p>";
         
