@@ -35,16 +35,15 @@
     <?php echo "<p>*****************************************</p>";?>
     
     <?php
-        $rand = rand(5,15);
-        $resultat = $rand;
-        print_r($rand);
-        
-        for($i=1; $i <= $rand; $i++){
-            
-                $resultat = $resultat + $i;
-            echo "<p>Etape : $i - resultat = $resultat </p>";
-
-        }
+        $n = rand(5, 15);
+        $boucle = 1;
+        $resultat = 0;
+        echo "<h3>Voici le cumul des $n premiers nombres (sens inverse): </h3>";
+        for($i = $n; $i >=1; $i--):
+            $resultat += $i;
+            echo "<p>Etape: $boucle - résultat = $resultat</p>";
+            $boucle++;
+        endfor;
     ?>
 
     <?php echo "<p>*****************************************</p>";?>
