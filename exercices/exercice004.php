@@ -104,8 +104,9 @@
     }
     
     echo "***************EXO14*****************";
-    foreach($tab as $value){
-        affichage($value);
+    
+    foreach($tab as $value2){
+        affichage($value2);
         echo "********";
     }
     ?>
