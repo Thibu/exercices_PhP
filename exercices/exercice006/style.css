@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: aqua;
+}
+.images{
+    max-height: 210px;
+    filter: drop-shadow(0 0 0.75rem crimson);
+    padding: 1rem;
+}
+#container_img{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+.container_form{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    /*justify-content: center; */
+    background-color: rgba(0, 0, 0, 0.664);
+}
+.div_img{
+    margin: 0 auto;
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+.upload_img{
+    max-height: 400px;
+    margin: 0 auto;
+}
+.nom_fichier{
+    font-size: 1rem;
+}
