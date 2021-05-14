@@ -45,7 +45,7 @@
         
             $concontmdp = $sel[0] . $mdphash;
             
-            echo $concontmdp;
+            // echo $concontmdp;
 
             $requete = $bdd->prepare('SELECT * FROM users 
                                         WHERE login= ? AND password= ?');
