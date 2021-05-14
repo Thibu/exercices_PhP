@@ -49,7 +49,11 @@
 
             $requete = $bdd->prepare('SELECT * FROM users 
                                         WHERE login= ? AND password= ?');
-            $requete ->execute(array($login, $concontmdp));
+            if($sel[0] !=null){
+                $requete ->execute(array($login, $concontmdp));
+            }else{
+                $requete ->execute(array($login, $password));
+            }
 
             while($données = $requete -> fetch()){
                 echo '<p> Bonjour ' . $données["login"] . ", tu es maintenant connecté." . '</p>';
