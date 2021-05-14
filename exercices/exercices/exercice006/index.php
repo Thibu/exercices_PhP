@@ -1,3 +1,8 @@
+<?php 
+    $titre = "Exercice Série 006 - Hebergeur d'image en local";
+    require "../../common/template.php"; 
+    ?>
+
 <link rel="stylesheet" href="style.css">
 <?php 
     // $titre = "Exemple 0012 - recevoir un fichier";
